@@ -1,3 +1,4 @@
+
 public class FireBear implements Monster{
 
     private int health;
@@ -34,3 +35,4 @@ public class FireBear implements Monster{
         System.out.println("A wild " + element + " Bear appeared! Health: " + health + " Power: " + power);
     }
 }
+

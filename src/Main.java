@@ -131,10 +131,9 @@ public class Main {
         while(speler.health > 0 && monster.getHealth() > 0) {
             System.out.println(" ");
             speler.health = speler.health - monsterBattlePower;
-            System.out.println(speler.health + " " + monsterBattlePower);
+            System.out.println("Speler:  " + speler.health + "/" + spelerBattlePower);
             monster.setHealth(monster.getHealth() - spelerBattlePower);
-            System.out.println(monster.getHealth() + " " + spelerBattlePower);
-            System.out.println(" ");
+            System.out.println("Monster: " + monster.getHealth() + "/" + monsterBattlePower);
 
         }
 

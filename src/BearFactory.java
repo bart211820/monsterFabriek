@@ -32,3 +32,4 @@ public class BearFactory implements MonsterFactory{
         return(ThreadLocalRandom.current().nextInt(minBearPower, maxBearPower + 1));
     }
 }
+
